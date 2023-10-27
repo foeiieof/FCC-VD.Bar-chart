@@ -1,0 +1,45 @@
+:root{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#55768c ;
+}
+svg{
+    background-color: wheat;
+    border-radius: 3%;
+    border: 1px solid #262626;
+}
+.bar{
+    background-color: #ffffff;
+    border-color: rgb(255, 0, 0);
+    fill: #55768c;
+    
+}
+
+.bar:hover{
+    fill: #ffffff
+}
+
+g{
+    color: #262626
+}
+
+#tooltip{
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 28px;
+}
+
+#title{
+    padding: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #262626;
+    border-radius: 5%;
+    margin-top: 10px;
+    font-size: 30px;
+    color: aliceblue;
+}
