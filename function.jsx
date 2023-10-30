@@ -25,10 +25,10 @@ let drawCanvas = () => {
 let generateScale = () => {
 
     hScale = d3.scaleLinear()
-                    .domain([0,d3.max(values,(item) =>{ 
-                        return item[1]
-                     })])
-                    .range([0,height - (2 * padding)])
+               .domain([0,d3.max(values,(item) =>{ 
+                 return item[1]
+                 })])
+               .range([0,height - (2 * padding)])
 
     wScale = d3.scaleLinear()
                .domain([0, values.length - 1])
